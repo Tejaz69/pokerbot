@@ -1,0 +1,4 @@
+part 1:- all hunt hare or all hunt stag, as in all intermediate cases if stag is going to get caught everyone would prefer stag as stag/n>hare and if stag is not
+caught , no one would like to choose stag.
+part 2:- all hunt hare or exaclty k hunt stag similar to the logic of first part, if stag get's caught if less than k choose stag , then everyone who choose hare 
+want to deviate and if more than k choose stag then everyone who choose stag want to deviate.
