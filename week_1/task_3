@@ -1,0 +1,5 @@
+I will win(player who goes second).
+To solve this we will use an bottom-up approach, let f[i][j]=1 if pile A has i stone's , B has j stone's and the player who is going to make the next move surely
+wins. f[0][0]=0 as if no rock's remain player who has to go next looses. f[i][0]-> if i even then 0 else 1 (as both only have one option , so it's easy to see)
+similarly we can find f[0][i]. from f[i][j], we can have 3 transition's (if i>0 and j>0) f[i][j]=min(f[i-1][j],f[i-1][j-1],f[i][j-1]) ^ 1 (^ is xor).
+by drawing a grid with 2 axis we would see that whenever i and j both are even , the player who goes first looses. else player who goes first wins.
